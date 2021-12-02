@@ -2,10 +2,10 @@ import { FC } from 'react'
 import Unity, { UnityContext } from 'react-unity-webgl'
 
 const unityContext = new UnityContext({
-  loaderUrl: 'Build/DRONE-HTML.loader.js',
-  dataUrl: 'Build/DRONE-HTML.data',
-  frameworkUrl: 'Build/DRONE-HTML.framework.js',
-  codeUrl: 'Build/DRONE-HTML.wasm',
+  loaderUrl: 'unity/DRONE-HTML.loader.js',
+  dataUrl: 'unity/DRONE-HTML.data',
+  frameworkUrl: 'unity/DRONE-HTML.framework.js',
+  codeUrl: 'unity/DRONE-HTML.wasm',
 })
 
 export const UnityApp: FC = () => {
