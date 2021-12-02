@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fcp-app/static/css/main.b8a5bcff.chunk.css",
+    "main.js": "/fcp-app/static/js/main.e5c39e57.chunk.js",
+    "main.js.map": "/fcp-app/static/js/main.e5c39e57.chunk.js.map",
+    "runtime-main.js": "/fcp-app/static/js/runtime-main.40a05919.js",
+    "runtime-main.js.map": "/fcp-app/static/js/runtime-main.40a05919.js.map",
+    "static/js/2.25e004de.chunk.js": "/fcp-app/static/js/2.25e004de.chunk.js",
+    "static/js/2.25e004de.chunk.js.map": "/fcp-app/static/js/2.25e004de.chunk.js.map",
+    "index.html": "/fcp-app/index.html",
+    "static/css/main.b8a5bcff.chunk.css.map": "/fcp-app/static/css/main.b8a5bcff.chunk.css.map",
+    "static/js/2.25e004de.chunk.js.LICENSE.txt": "/fcp-app/static/js/2.25e004de.chunk.js.LICENSE.txt",
+    "static/media/logo.b2e5a01e.svg": "/fcp-app/static/media/logo.b2e5a01e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40a05919.js",
+    "static/js/2.25e004de.chunk.js",
+    "static/css/main.b8a5bcff.chunk.css",
+    "static/js/main.e5c39e57.chunk.js"
+  ]
+}
