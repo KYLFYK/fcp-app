@@ -3,7 +3,7 @@ import { Badge, Card } from 'antd'
 import { SecCards } from './SecCards'
 
 import styles from './Dashboard.module.scss'
-import img1 from '../../assets/adam-niescioruk-KA5LrUi1d18-unsplash.jpg'
+import img1 from '../../assets/graph.jpg'
 
 export const MainCards: FC = () => {
   return (
