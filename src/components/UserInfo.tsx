@@ -1,7 +1,9 @@
 import { FC } from 'react'
+import { Avatar } from 'antd'
 
 import styles from './UserInfo.module.scss'
-import { Avatar } from 'antd'
+
+import userImage from '../assets/thierry-lemaitre-4xXZ1dCfbwA-unsplash.jpg'
 
 export const UserInfo: FC = () => {
   return (
@@ -11,7 +13,8 @@ export const UserInfo: FC = () => {
           backgroundColor: '#7265e6',
           verticalAlign: 'middle',
         }}
-        size={64}
+        src={userImage}
+        size={80}
         gap={4}
       >
         UN

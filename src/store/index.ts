@@ -1,8 +1,10 @@
 import { combineReducers, Reducer } from '@reduxjs/toolkit'
 import { userReducers } from './user'
+import { testsReducers } from './tests'
 
 const appReducer = combineReducers({
   userReducers,
+  testsReducers,
 })
 
 export type RootCombine = ReturnType<typeof appReducer>

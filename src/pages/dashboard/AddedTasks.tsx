@@ -5,6 +5,8 @@ import { RightOutlined } from '@ant-design/icons'
 import { TaskCard } from './TaskCard'
 
 import styles from './Dashboard.module.scss'
+import img1 from '../../assets/unsplash_8erBzivCEJU.jpg'
+import img2 from '../../assets/unsplash_92OQdTVMMck.jpg'
 
 export const AddedTasks: FC = () => {
   return (
@@ -13,9 +15,7 @@ export const AddedTasks: FC = () => {
       <div className={styles.tasksCards}>
         <TaskCard
           url={'/unity'}
-          imgUrl={
-            'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png'
-          }
+          imgUrl={img2}
           title={'Практика'}
           width={260}
           description={'Взлёт и посадка'}
@@ -28,9 +28,7 @@ export const AddedTasks: FC = () => {
         />
         <TaskCard
           url={'/unity'}
-          imgUrl={
-            'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png'
-          }
+          imgUrl={img1}
           title={'Тест'}
           width={260}
           description={'Основы управления летательными аппаратами'}

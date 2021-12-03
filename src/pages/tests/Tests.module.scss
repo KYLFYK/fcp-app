@@ -1,0 +1,94 @@
+.wrapper {
+  padding-top: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 34px;
+  margin-bottom: 36px;
+
+  &.ltlMargin {
+    margin-bottom: 16px;
+  }
+}
+
+.testsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px 24px;
+}
+
+.testDesc {
+  margin-top: 13px;
+  padding: 0;
+  margin-bottom: 22px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.timer {
+  background: #E6F7FF;
+  height: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  width: fit-content;
+  padding: 0 8px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #1890FF;
+}
+
+.questions {
+  width: fit-content;
+  background-color: white;
+  padding: 17px 24px 30px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+
+  .taskHead {
+    display: flex;
+    gap: 8px;
+  }
+
+  .taskNum {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    display: inline-block;
+    text-align: right;
+    width: 26px;
+  }
+
+  .questTitle {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .answers {
+    padding-left: 34px;
+    margin-top: 12px;
+  }
+}
+
+.completed {
+  margin-top: 50px;
+  background-color: white;
+}

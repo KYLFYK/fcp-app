@@ -3,6 +3,7 @@ import { Badge, Card } from 'antd'
 import { SecCards } from './SecCards'
 
 import styles from './Dashboard.module.scss'
+import img1 from '../../assets/adam-niescioruk-KA5LrUi1d18-unsplash.jpg'
 
 export const MainCards: FC = () => {
   return (
@@ -19,10 +20,7 @@ export const MainCards: FC = () => {
       >
         <div className={styles.cardContent}>
           <div className={styles.cardImage}>
-            <img
-              alt="example"
-              src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-            />
+            <img alt="example" src={img1} />
           </div>
           <div className={styles.cardStats}>
             <div className={styles.statElem}>
