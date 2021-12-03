@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 14px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.85);
+  display: inline-block;
+  margin-top: 34px;
+  margin-bottom: 42px;
+}
+
+.tasks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}

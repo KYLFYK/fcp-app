@@ -1,14 +1,17 @@
-import React, { StrictMode } from 'react'
+import React, { Fragment } from 'react'
 import { render } from 'react-dom'
 import { App } from './app'
 import { store } from './store/store'
 import { Provider } from 'react-redux'
+import { BrowserRouter } from 'react-router-dom'
 
 render(
-  <StrictMode>
+  <Fragment>
     <Provider store={store}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </Provider>
-  </StrictMode>,
+  </Fragment>,
   document.getElementById('root')
 )

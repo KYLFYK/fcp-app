@@ -1,0 +1,130 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+
+  .card {
+    &Content {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      justify-content: space-around;
+      height: 100%;
+    }
+
+    &Image {
+      overflow: hidden;
+      height: 346px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+
+    &Stats {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+
+      .statElem {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .percent {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        padding-left: 14px;
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.85);
+      }
+    }
+  }
+}
+
+.secCards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  flex-basis: 50%;
+
+  .secCardImage {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 50px;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
+
+.tasks {
+  background-color: #ffffff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &Title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  &Cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+.emptyCard {
+  .image {
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.85);
+    height: 50px;
+    display: inline-block;
+    margin-top: 16px;
+  }
+
+  .tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+}
