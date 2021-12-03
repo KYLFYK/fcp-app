@@ -7,10 +7,11 @@ import { Menu } from '../components/Menu'
 import { Layout } from 'antd'
 import { Topbar } from '../components/Topbar'
 import { UserInfo } from '../components/UserInfo'
-
-import './App.less'
 import { AdditionalMenu } from '../components/AdditionalMenu'
 import { Tasks } from '../pages/tasks'
+
+import './App.less'
+import { Tests } from '../pages/tests'
 
 const { Header, Sider, Content } = Layout
 
@@ -58,6 +59,7 @@ export const App: FC = () => {
               <Route exact path={addUrlPath('/')} component={Dashboard} />
               <Route path={addUrlPath('/unity')} component={UnityApp} />
               <Route path={addUrlPath('/tasks')} component={Tasks} />
+              <Route path={addUrlPath('/tests')} component={Tests} />
             </Switch>
           </Content>
         </Layout>
