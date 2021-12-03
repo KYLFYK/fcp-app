@@ -50,6 +50,7 @@ export const TaskCard: FC<Props> = ({
               key={index}
               className="site-badge-count-109"
               count={tag.text}
+              overflowCount={100}
               style={{ backgroundColor: tag.color }}
             />
           ))}

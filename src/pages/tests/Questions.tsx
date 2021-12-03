@@ -5,14 +5,16 @@ import {
   theoryTestsActions,
 } from '../../store/tests/reducers/theoryTestsSlice'
 import { useAppDispatch } from '../../store/store'
+import { TaskStatusType } from './TestPage'
 
 import styles from './Tests.module.scss'
 
 interface Props {
   task: TaskListType
+  setStatus: (nesStatus: TaskStatusType) => void
 }
 
-export const Questions: FC<Props> = ({ task }) => {
+export const Questions: FC<Props> = ({ task, setStatus }) => {
   const dispatch = useAppDispatch()
   const [form] = Form.useForm()
 
@@ -32,7 +34,11 @@ export const Questions: FC<Props> = ({ task }) => {
       })
     )
 
-    console.log(values)
+    setStatus({
+      completed: true,
+      result: result,
+      success: result >= 70,
+    })
   }
 
   return (
