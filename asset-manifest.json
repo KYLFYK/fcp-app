@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fcp-app/static/css/main.e7dbf8a0.chunk.css",
+    "main.css": "/fcp-app/static/css/main.36a24564.chunk.css",
     "main.js": "/fcp-app/static/js/main.90470f45.chunk.js",
     "main.js.map": "/fcp-app/static/js/main.90470f45.chunk.js.map",
     "runtime-main.js": "/fcp-app/static/js/runtime-main.40a05919.js",
@@ -8,13 +8,13 @@
     "static/js/2.c3c473b9.chunk.js": "/fcp-app/static/js/2.c3c473b9.chunk.js",
     "static/js/2.c3c473b9.chunk.js.map": "/fcp-app/static/js/2.c3c473b9.chunk.js.map",
     "index.html": "/fcp-app/index.html",
-    "static/css/main.e7dbf8a0.chunk.css.map": "/fcp-app/static/css/main.e7dbf8a0.chunk.css.map",
+    "static/css/main.36a24564.chunk.css.map": "/fcp-app/static/css/main.36a24564.chunk.css.map",
     "static/js/2.c3c473b9.chunk.js.LICENSE.txt": "/fcp-app/static/js/2.c3c473b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.40a05919.js",
     "static/js/2.c3c473b9.chunk.js",
-    "static/css/main.e7dbf8a0.chunk.css",
+    "static/css/main.36a24564.chunk.css",
     "static/js/main.90470f45.chunk.js"
   ]
 }
