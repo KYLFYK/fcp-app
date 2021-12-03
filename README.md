@@ -1,14 +1,15 @@
 <h4>Реализованная функциональность</h4>
 <ul>
-    <li>Функционал 1;</li>
-    <li>Функционал 2;</li>
-    <li>Функционал 3;</li>
+    <li>Тренировки на любой платформе;</li>
+    <li>Тесты;</li>
+    <li>Пилотирование;</li>
 </ul> 
 <h4>Особенность проекта в следующем:</h4>
 <ul>
- <li>Киллерфича-1;</li>
- <li>Киллерфича-2;</li>
- <li>Киллерфича-3;</li>  
+ <li>Физические характеристики для отработки навыков;</li>
+ <li>Геймификация;</li>
+ <li>Полноценная обрзовательная платформа;</li>
+ <li>CRM-система для преподавателя;</li>
  </ul>
 <h4>Основной стек технологий:</h4>
 <ul>
@@ -49,8 +50,8 @@ yarn start
 
 РАЗРАБОТЧИКИ
 
-<h4>Ефимов Константин | Unity3D Разработчик + 3D Modeler + TeamLead [https://t.me/Relict40](https://t.me/Relict40) </h4>
-<h4>Башкардинов Максим | FrontEnd [https://t.me/av_maksim](https://t.me/av_maksim) </h4>
-<h4>Хон Ирина | Product designer [https://t.me/ira_hon](https://t.me/ira_hon) </h4>
-<h4>Жученков Павел | Project Manager [https://t.me/PVZ84](https://t.me/PVZ84) </h4>
+<h4>Ефимов Константин | Unity3D Разработчик + 3D Modeler + TeamLead <a href="https://t.me/Relict40">https://t.me/Relict40</a></h4>
+<h4>Башкардинов Максим | FrontEnd <a href="https://t.me/av_maksim">https://t.me/av_maksim</a></h4>
+<h4>Хон Ирина | Product designer <a href="https://t.me/ira_hon">https://t.me/ira_hon</a></h4>
+<h4>Жученков Павел | Project Manager <a href="https://t.me/PVZ84">https://t.me/PVZ84</a></h4>
 
