@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import { v4 as uuidv4 } from 'uuid'
 
 interface QuestionType {
+  id: string
   quest: string
   trueA: string
   ifTrue: number
@@ -11,7 +12,7 @@ interface QuestionType {
   }[]
 }
 
-interface TaskListType {
+export interface TaskListType {
   id: string
   description: string
   imgUrl: string
@@ -45,6 +46,10 @@ const initialState: InitialType = {
           color: '#52C41A',
           text: 'Выполнено',
         },
+        {
+          color: '#FFA940',
+          text: '80',
+        },
       ],
       questions: [],
     },
@@ -69,6 +74,7 @@ const initialState: InitialType = {
             'Основная составляющая квадрокоптера, имеющая множество входов и выходов для получения, обработки и передачи информации это:',
           trueA: '1872491241042',
           ifTrue: 50,
+          id: uuidv4(),
           answers: [
             {
               id: '1872491241042',
@@ -93,6 +99,7 @@ const initialState: InitialType = {
             'Линейный и угловой манёвры БМС относительно оси Z называются:',
           trueA: '892397582198456234',
           ifTrue: 50,
+          id: uuidv4(),
           answers: [
             {
               id: '892397582198456234',
@@ -125,7 +132,7 @@ const initialState: InitialType = {
         'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
       tags: [
         {
-          color: '#E6F7FF',
+          color: 'blue',
           text: 'Назначено',
         },
       ],
@@ -142,7 +149,7 @@ const initialState: InitialType = {
         'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
       tags: [
         {
-          color: 'rgba(0, 0, 0, 0)',
+          color: 'gray',
           text: 'Выполнить до 29.12.2021',
         },
       ],
@@ -192,6 +199,16 @@ const theoryTestsSLice = createSlice({
             ...test,
             currentStatus: 'complete',
             result: payload.result,
+            tags: [
+              {
+                color: payload.result >= 70 ? '#52C41A' : '#FF4D4F',
+                text: 'Выполнено',
+              },
+              {
+                color: payload.result >= 70 ? '#52C41A' : '#FFA940',
+                text: payload.result.toString(),
+              },
+            ],
           }
         } else return test
       })

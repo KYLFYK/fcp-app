@@ -18,7 +18,8 @@
 	<li>React, Redux Toolkit, React-unity-webgl</li>
 	<li>Git</li>
 	<li>GitHub-pages</li>
-
+	<li>Ant Design</li>
+    <li>Unity3D</li>
  </ul>
 <h4>Демо</h4>
 <p>Демо сервиса доступно по адресу: <a href='https://kylfyk.github.io/fcp-app/' target='_blank'>https://kylfyk.github.io/fcp-app/</a></p>
@@ -48,5 +49,8 @@ yarn start
 
 РАЗРАБОТЧИКИ
 
-<h4>Башкардинов Максим FrontEnd [https://t.me/av_maksim](https://t.me/av_maksim) </h4>
+<h4>Ефимов Константин | Unity3D Разработчик + 3D Modeler + TeamLead [https://t.me/Relict40](https://t.me/Relict40) </h4>
+<h4>Башкардинов Максим | FrontEnd [https://t.me/av_maksim](https://t.me/av_maksim) </h4>
+<h4>Хон Ирина | Product designer [https://t.me/ira_hon](https://t.me/ira_hon) </h4>
+<h4>Жученков Павел | Project Manager [https://t.me/PVZ84](https://t.me/PVZ84) </h4>
 

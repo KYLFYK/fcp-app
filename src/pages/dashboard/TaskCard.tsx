@@ -17,6 +17,7 @@ interface Props {
   imgUrl: string
   tags: Tag[]
   description: string
+  withoutTitle?: boolean
 }
 
 export const TaskCard: FC<Props> = ({
@@ -26,13 +27,17 @@ export const TaskCard: FC<Props> = ({
   imgUrl,
   tags,
   description,
+  withoutTitle,
 }) => {
   return (
     <NavLink to={addUrlPath(url)} className={styles.emptyCard}>
       <Card
-        title={title}
+        title={!withoutTitle ? title : undefined}
         style={{
           width: width,
+        }}
+        headStyle={{
+          display: withoutTitle ? 'none' : '',
         }}
       >
         <div className={styles.image}>
