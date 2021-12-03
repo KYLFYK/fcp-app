@@ -1,12 +1,14 @@
 import { FC } from 'react'
-import { NavLink } from 'react-router-dom'
-import { addUrlPath } from '../../functions/addUrlPath'
+import { MainCards } from './MainCards'
+import { AddedTasks } from './AddedTasks'
+
+import styles from './Dashboard.module.scss'
 
 export const Dashboard: FC = () => {
   return (
-    <div>
-      Dashboard
-      <NavLink to={addUrlPath('/unity')}>Go to unity</NavLink>
+    <div className={styles.wrapper}>
+      <MainCards />
+      <AddedTasks />
     </div>
   )
 }

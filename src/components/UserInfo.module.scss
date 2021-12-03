@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 35px;
+  padding: 0 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 14px;
+  text-align: center;
+
+  .name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .role {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

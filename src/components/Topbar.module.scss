@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings {
+  display: flex;
+  gap: 8px;
+
+  .button {
+    padding: 0 8px;
+    cursor: pointer;
+    position: relative;
+
+    .badge {
+      position: absolute;
+      top: 8px;
+      right: 0;
+      transform: translateX(50%);
+    }
+  }
+}
