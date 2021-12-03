@@ -1,6 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit'
 import { v4 as uuidv4 } from 'uuid'
 
+import electricity from '../../../assets/federico-beccari-ahi73ZN5P0Y-unsplash.jpg'
+import img1 from '../../../assets/unsplash_8erBzivCEJU.jpg'
+import img2 from '../../../assets/jp-valery-TnjBw8dtE2U-unsplash.jpg'
+import img3 from '../../../assets/arun-prakash-8GVM5TvexGQ-unsplash.jpg'
+import img4 from '../../../assets/chandler-cruttenden-nkXDHUpxdus-unsplash.jpg'
+
 interface QuestionType {
   id: string
   quest: string
@@ -39,8 +45,7 @@ const initialState: InitialType = {
       description: 'Основы электротехники',
       testDescription:
         'Ответьте на вопросы теста. Каждый вопрос содержит один правильный ответ.',
-      imgUrl:
-        'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
+      imgUrl: electricity,
       tags: [
         {
           color: '#52C41A',
@@ -60,8 +65,7 @@ const initialState: InitialType = {
       description: 'Основы управления летательными аппаратами',
       testDescription:
         'Ответьте на вопросы теста. Каждый вопрос содержит один правильный ответ. Внимание! Время на тестирование ограничено.',
-      imgUrl:
-        'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
+      imgUrl: img1,
       tags: [
         {
           color: '#FF7875',
@@ -128,8 +132,7 @@ const initialState: InitialType = {
       description: 'Основы сборки летательных аппаратов',
       testDescription:
         'Ответьте на вопросы теста. Каждый вопрос содержит один правильный ответ.',
-      imgUrl:
-        'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
+      imgUrl: img2,
       tags: [
         {
           color: 'blue',
@@ -145,8 +148,7 @@ const initialState: InitialType = {
       description: 'Монтаж и сборка FPV',
       testDescription:
         'Ответьте на вопросы теста. Каждый вопрос содержит один правильный ответ.',
-      imgUrl:
-        'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
+      imgUrl: img3,
       tags: [
         {
           color: 'gray',
@@ -162,8 +164,7 @@ const initialState: InitialType = {
       description: 'Основы навигации и пилотирования',
       testDescription:
         'Ответьте на вопросы теста. Каждый вопрос содержит один правильный ответ.',
-      imgUrl:
-        'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
+      imgUrl: img4,
       tags: [
         {
           color: '#FF4D4F',
